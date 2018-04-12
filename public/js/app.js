@@ -97,7 +97,7 @@ document.getElementById('btn-locate').addEventListener('click', function() {
   } else {
     console.log('Browser doesn\'t support geolocation!');
   }
-  //geocodeLatLng(geocoder, map, infowindow);  
+ 
 });
 /* */
 function geocodeLatLng(geocoder, map, infowindow) {  
@@ -186,4 +186,3 @@ function getEstimates(latitudOrigin, longitudOrigin, latitudDestination, longitu
     
   });
 }
-// ((distanceRoute/distance)*priceEstimate).toFixed(2)+' soles';

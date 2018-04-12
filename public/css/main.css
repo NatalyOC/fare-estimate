@@ -38,6 +38,9 @@ section{
   border-radius: 10px;
 }
 
+.form-output{
+  padding: 15px;
+}
 .form-input{
   padding: 15px;
 }
@@ -54,4 +57,22 @@ input[type="text"] {
 #subinfo{
   overflow-x: visible; 
   overflow-y: visible;
+}
+@media (min-width: 380px)
+{
+  input[type="text"] {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid #138496;
+    text-overflow: ellipsis;
+  }
+  .main-form{
+    margin: 0;
+  padding: 0;
+  }
+  .google-map{
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
